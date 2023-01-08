@@ -1,0 +1,1137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=cyrillic,cyrillic-ext');
+    
+    
+    
+body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+}
+
+h1 {
+    color: #000;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+h2, h3, h4 {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ul, menu, dir, li {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+a:-webkit-any-link {
+        cursor: pointer;
+        color: #000;
+        text-decoration: none;
+    }
+.backmain {
+    background: url(/images/mainback.jpg);
+    box-shadow: 0px 11px 17px rgba(9, 55, 93, 0.37);
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1920px;
+    min-width: 960px;
+    height: 955px;
+    background-size: cover;
+    background-position: center; 
+    }
+button {
+    border-width: 0;
+    border-style: outset;
+    border-color: none;
+    border-image: initial;
+    cursor: pointer;
+    font: 500 1.2em 'Montserrat', sans-serif;
+    background-color: transparent;
+}
+.mainnav {
+    margin: auto;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 150px; 
+}
+.sectname1 {
+    color: #000;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+.sectname2 {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0px 0px 50px 0px;
+}
+.mainbar {
+        background-color: #0d68b2;
+        height: 955px;
+        float: left;
+        max-width: 320px;
+        margin-right: 80px;
+        width: 320px;
+    }
+.logo {
+    padding-top: 50px;
+    vertical-align: top;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.logo>a {
+    color: #fff;
+}
+.btnmain>a {
+    color: #fff;
+}
+.btnmainmenu>a {
+    color: #fff;
+}
+.whiteviolbr>a {
+    color: #fff;
+}
+.upcontacts {
+        margin: 0px 20px 0px 80px;
+        padding: 50px 0px 0px 50px;
+    }
+
+.inlinebl {
+        display: inline-block;
+    }
+.blstrtxt {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.5em;
+      }
+.margr {
+    margin-right: 80px;
+}
+.maintxt {
+    padding: 0px 20px 55px 0px;
+    max-width: 800px;
+    display: inline-block;
+    position: relative;
+    top: 170px;
+}
+.akzmaintxt {
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.minh {
+    min-height: 145px;
+}
+.specmaintxt {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: 600;
+    word-spacing: 5px;
+    max-width: 600px;
+    margin-bottom: 80px;
+}
+.sugaroilmaintxt {
+    text-transform: uppercase; 
+    font-size: 1.8em;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #2320c6;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+    background-color: transparent;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.sugaroilmainlinks {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -4px;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+.mainfoot {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.btnmain {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 1.2em;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #2320c6;
+    width: 320px;
+    box-sizing: border-box;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+}
+.btnmain:hover {
+    box-shadow: 0px 6px 5px 3px #fff;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #e1ed56;
+    color: #000;
+}
+.btnmainmenu {
+    background-color: #0876cf;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    margin: 3px 0px 4px 0px;
+    text-align: center;
+    border-bottom: 4px solid #0d4f93;
+}
+.btnmainmenu:hover {
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #3498db;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sectworks {
+    padding-top: 70px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.redbr {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    max-width: 334px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bluebr {
+    border-bottom: #0D67B2 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 30px;
+    max-width: 417px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.whiteviolbr {
+    color: #fff;
+    border-bottom: #2421ca solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    max-width: 284px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.redbroil {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    max-width: 627px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.redbrworkexamples {
+    border-bottom: #FF4D01 solid 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    max-width: 390px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.worksmainblock {
+    max-width: 1240px;
+    margin: auto;
+}
+.margincenter {
+    margin: 0px 50px;
+}
+.worksblsm {
+    width: 29%;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px;
+}
+.worksangle {
+    background-image: url(/images/greyangle.png);
+    height: 149px;
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1920px;
+    min-width: 960px;
+}
+.worksinfo {
+    position: relative;
+    top: 60px;
+    margin: auto;
+    text-align: center;
+}
+.sugarplants {
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.sugardescript {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.sugarblocks {
+    width: 425px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 10px;
+    max-width: 425px;
+}
+.sugarblocks>p {
+    margin: 30px 0px;
+}
+.sectoil {
+    padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.oilblock {
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+}
+.oilblocksm {
+    padding: 10px;
+    max-width: 425px;
+    display: inline-block;
+}
+.oilblocksm>p {
+    margin: 30px 0px;
+}
+.oilblocksm>img {
+    width: 100%
+}
+.oilblockspics {
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+}
+.ourclients {
+    background-color: #80809a;
+    padding-bottom: 80px;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.whiteviolbr>h1 {
+    color: #fff;
+}
+.footerbc {
+    background-color: #084F8A;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.footsect {
+    margin: auto;
+    width: 900px;
+}
+.footbl {
+    margin: 50px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 320px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.footbl>h2 {
+    margin-bottom: 50px;
+}
+.footbl>h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.footertxt {
+    margin-bottom: 20px;
+}
+.footbl>p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footbl>p>a {
+    color: #fff;
+}
+.txtunderline {
+    text-decoration: underline;
+}
+.copyrights {
+    color: #fff;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: auto;
+    text-align: right;
+}
+.clientslogosblock {
+    margin: auto;
+    padding: 50px 30px;
+    text-align: center;
+}
+.clogos {
+    margin: 20px 50px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 250px;
+    min-width: 250px;
+}
+.clogos>p {
+    color: #fff;
+    font-weight: 600;
+
+}
+.upbar {
+    max-height: 100px;
+    width: 100%;
+    display: none;
+    background-color: #0d68b2;
+    color: #fff;
+   }
+   .upcontactsmob {
+    display: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+.blstrtxtmob {
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    margin: 0;
+    display: none;
+}
+
+@media (max-width: 1600px) {
+    .specmaintxt {
+        font-size: 1.2em;
+        max-width: 450px;
+        line-height: 1.6em;
+    }
+}
+
+@media (max-width: 1366px) {
+    .mainbar {
+        max-width: 230px;
+        margin-right: 50px;
+        height: 635px;
+    }
+    .mainnav {
+    top: 100px;
+    }
+    .logo {
+        padding-top: 30px;
+        font-size: 1em;
+    }
+    .upcontacts {
+        padding: 30px 0px 0px 50px;
+    }
+    .backmain {
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1366px;
+    height: 635px;
+    background-size: cover;
+    }
+    .btnmainmenu {
+        font-size: 0.85em;
+    }
+    .margr {
+    margin-right: 50px;
+    }
+    .blstrtxt {
+        font-size: 1em;
+    }
+    .maintxt {
+        padding: 0px 20px 55px 0px;
+        max-width: 620px;
+        top: 100px;
+    }
+    .akzmaintxt {
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+    .specmaintxt {
+        margin-bottom: 50px;
+    }
+    .sugaroilmaintxt {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    .btnmain {
+        font-size: 1em;
+        width: 250px;
+        font-weight: 500;
+    }
+    .sectworks {
+        padding-top: 30px;
+        max-width: 1366px;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    .ourclients {   
+        padding-bottom: 60px;
+        max-width: 1366px;
+    }
+    .whiteviolbr {
+        padding-top: 50px;
+    }
+    .clientslogosblock {
+        padding: 30px 30px;
+    }
+    .footbl>h2 {
+        font-size: 1em;
+    }
+    .worksinfo {
+        top: 50px;
+        text-align: center;
+    }
+    .worksmainblock {
+        max-width: 1024px;
+    }
+    .margincenter {
+        margin: 0px 20px;
+    }
+    .worksangle {
+        max-width: 1366px;
+        min-width: 768px;
+    }
+    .sugarplants {
+        max-width: 1366px;
+    }
+    .sectoil {
+        max-width: 1366px;
+    }
+    .footerbc {
+        max-width: 1366px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .maintxt {
+        top: 100px;
+    }
+}
+@media (max-width: 1152px) {
+    .worksmainblock {
+        max-width: 1024px;
+    }
+    .mainbar {
+        max-width: 220px;
+        margin-right: 40px;
+    }
+    .logo>a {
+        font-size: 0.85em;
+    }
+    .maintxt {
+        top: 120px;
+    }
+    .specmaintxt {
+        font-size: 1em;
+    }
+    .akzmaintxt {
+        font-size: 1.7em;    
+    }
+    .sugaroilmaintxt {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    .btnmain {
+        font-size: 0.85em;
+        width: 200px;  
+    }
+    .margr {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .maintxt {
+        padding: 0px 20px 55px 0px;
+    }
+    .akzmaintxt {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+    }
+    .worksmainblock {
+        max-width: 760px;
+    }
+    .mainbar {
+        width: 200px;
+        max-width: 200px;
+        margin-right: 30px;
+    }
+    .maintxt {
+        top: 100px;
+    }
+    .btnmainmenu {
+        font-size: 0.75em;
+    }
+    .specmaintxt {
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+    .sugaroilmaintxt {
+        font-size: 1.1em;
+    }
+    .btnmain {
+        font-size: 0.8em;
+        width: 200px;
+        font-weight: 500;
+    }
+    .logo {
+        padding-top: 27px;
+    }
+    .logo>a {
+        font-size: 0.85em;
+    }
+    .worksblsm {
+        width: 27%; 
+    }
+    .margincenter {
+        margin: 0;
+        line-height: 35px;
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .mainbar {
+        width: 100px;
+        max-width: 100px;
+        height: 550px;
+    }
+    .sugaroilmainlinks {
+        display: none;
+    }
+    .logo {
+        padding-top: 50px;
+    }
+    .upcontacts {
+        padding: 50px 0px 0px 50px;
+    }
+    .backmain {
+        height: 550px;
+    }
+    .btnmainmenu {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+    .worksinfo {
+        display: none;
+    }
+    .maintxt {
+        padding: 20px;
+        max-width: 620px;
+        top: 80px;
+    }
+    .akzmaintxt {
+        font-size: 1.8em;
+        margin-bottom: 50px;
+
+    }
+    .specmaintxt {
+        font-size: 1em;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .sugaroilmaintxt {
+        font-size: 1.15em;
+        margin-bottom: 25px;
+        display: block;
+    }
+    .sugaroilmaintxt {
+        border-bottom: 2px solid #2320c6;
+    }
+    .upcontactsmob {
+        display: block;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 960px) and (orientation: portrait) {
+    .logo > a {
+        font-size: 0.65em;
+    }
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .margr {
+        margin-right: 25px;  
+    }
+    .blstrtxt {
+        font-weight: 600;
+        vertical-align: middle;
+        padding: 10px 30px;
+        font-size: 1.7em;
+        color: #fff;
+        margin: 0;
+    }
+    .maintxt {
+        margin: auto;
+        top: 210px;
+        display: block;
+        max-width: 800px;
+        padding: 10px;
+    }
+    .akzmaintxt {
+        font-size: 3.2em;
+        margin-bottom: 70px;
+        line-height: 1.5em;
+    }
+    .specmaintxt {
+        font-size: 1.6em;
+        margin-bottom: 70px;
+        max-width: 600px;
+        padding: 0;
+        text-align: center;
+    }
+    .sugaroilmaintxt {
+        font-size: 2em;
+        margin-bottom: 35px;
+        border-bottom: 4px solid #2320c6;
+        text-align: left;
+    }
+    .worksinfo {
+        top: 40px;
+        text-align: center;
+    }
+    .btnmain {
+        display: none;
+    }
+    .backmain {
+        box-shadow: none;
+        background: url(/images/mainbackmob.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 960px;
+        max-width: 960px;
+        width: 100%;
+        min-width: 600px;
+    }
+    .mainbar {
+        visibility: collapse;
+        display: none;
+    }
+    .mainnav {
+        top: 40px;
+    }
+    .btnmainmenu {
+        font-size: 0.65em;
+        padding: 10px;
+    }
+    .worksmainblock {
+        width: 100%;
+        text-align: center;
+    }
+    .worksblsm {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .margincenter {
+        font-size: 1.9em;
+        line-height: 1.5em;
+    }
+    .sectworks {
+        padding-top: 100px;
+        min-width: 600px;
+    }
+    .sugarplants {
+        max-width: 960px;
+        min-width: 600px;
+    }
+    .sugarblocks {
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        width: 90%;
+        max-width: 90%;
+    }
+    .sugarblocks>p {
+        font-size: 1.9em;
+        line-height: 1.5em;
+    }
+    .sugarblocks>img {
+        width: 100%;
+    }
+    .sectoil {
+        max-width: 960px;
+        min-width: 600px;
+    }
+    .ourclients {
+        max-width: 960px;
+        min-width: 600px;
+    }
+    .footsect {
+        width: 100%;
+        max-width: 960px;
+        min-width: 600px;
+    }
+    .bluebr {
+        padding-top: 60px;
+    }
+    .redbr {
+        padding-top: 60px;
+    }
+    .oilblocksm {
+        padding: 10px;
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .oilblocksm>p {
+        font-size: 1.9em;
+        line-height: 1.5em;
+    }
+    .upcontacts {
+    display: none;
+    }
+    .footerbc {
+    max-width: 960px;
+    padding: 0;
+    min-width: 768px;
+    }
+    .footsect {
+    margin: auto;
+    width: 100%;
+    }
+    .footbl {
+    max-width: 100%;
+    margin: 0px 0px 50px 0px;
+    padding: 20px;
+    }
+    .footbl>h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+    }
+    .footbl>p {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    }
+    .upbar {
+    display: block;
+    position: fixed;
+    z-index: 11;
+   }
+   .clogos {
+    margin: 10px;
+    }
+    .blstrtxtmob {
+        font-weight: 600;
+        vertical-align: middle;
+        padding: 10px;
+        font-size: 1em;
+        color: #fff;
+        margin: 0;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .upcontactsmob {
+        top: 100px;
+    }
+    .backmain {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .sectworks {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .sugarplants {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .sectoil {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .ourclients {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .footerbc {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .worksangle {
+        max-width: 600px;
+        min-width: 415px;
+    }
+    .clogos {
+        padding: 2px;
+        text-align: center;
+    }
+    .footsect {
+        margin: auto;
+        width: 100%;
+        max-width: 414px;
+        min-width: 320px;
+    
+    }
+    .footbl {
+        max-width: 414px;
+        margin: 0px 0px 50px 0px;
+        padding: 20px;
+        min-width: 320px;
+        text-align: center;
+    }
+    .footbl > p {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 1.7em; 
+    }
+    .footbl > h2 {
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    .akzmaintxt {
+        font-size: 1.6em;
+    }
+    .btnmain {
+        display: block;
+        font-size: 1.2em;
+        width: 320px;
+    }
+    .blstrtxtmob {
+        padding: 10px;
+        font-size: 1.3em;
+    }
+}
+
+
+@media screen and (max-width: 414px) and (orientation: portrait) {
+        .logo > a {
+        font-size: 0.5em;
+    }
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.8em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        color: #fff;
+        font-size: 1.3em;
+    }
+    .margr {
+        margin-right: 25px;  
+    }
+    .blstrtxt {
+        font-weight: 600;
+        vertical-align: middle;
+        padding: 20px;
+        font-size: 0.8em;
+        color: #fff;
+        margin: 0;
+    }
+    .blstrtxtmob {
+        font-size: 1em;
+    }
+    .upcontactsmob {
+        top: 50px;
+    }
+    .backmain {
+        box-shadow: none;
+        background: url(/images/mainbackmob.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        max-width: 414px;
+        width: 100%;
+        min-width: 320px;
+        height: 600px;
+    }
+    .maintxt {
+        margin: auto;
+        top: 90px;
+        display: block;
+        max-width: 414px;
+        padding: 10px;
+        box-sizing: border-box;
+        min-width: 320px;
+    }
+    .akzmaintxt {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        line-height: 1.5em;
+    }
+    .specmaintxt {
+        font-size: 0.95em;
+        margin-bottom: 40px;
+        max-width: 414px;
+        font-weight: 500;
+    }
+    .sugaroilmaintxt {
+        font-size: 1em;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .worksinfo {
+        top: 40px;
+        display: block;
+    }
+    .btnmain {
+        display: block;
+        font-size: 0.8em;
+        width: 200px;
+        font-weight: 500;
+    }
+    .sectworks {
+        padding-top: 0px;
+        max-width: 414px;
+        min-width: 320px;
+        margin: 0 auto;
+    }
+    .worksangle {
+        background-image: url(/images/greyangle.png);
+        height: 149px;
+        background-repeat: no-repeat;
+        margin: auto;
+        max-width: 414px;
+        min-width: 320px;
+    }
+
+    .sugarplants {
+        background-color: #f5f5f5;
+        padding-bottom: 80px;
+        max-width: 414px;
+        min-width: 320px;
+        margin: 0 auto;
+    }
+
+    .sectoil {
+        padding-bottom: 80px;
+        max-width: 414px;
+        min-width: 320px;
+        margin: 0 auto;
+    }
+    .ourclients {
+        background-color: #80809a;
+        padding-bottom: 80px;
+        max-width: 414px;
+        min-width: 320px;
+        margin: 0 auto;
+    }
+
+    .footerbc {
+        background-color: #084F8A;
+        max-width: 414px;
+        min-width: 320px;
+        margin: 0 auto;
+    }
+    .margincenter {
+        font-size: 1.3em;
+        line-height: 2em;
+        text-align: center;
+    }
+    .sugarblocks>p {
+        font-size: 1.3em;
+        line-height: 2em;
+    }
+    .oilblocksm>p {
+        font-size: 1.3em;
+        line-height: 2em;
+    }
+
+    /* .footsect {
+        margin: auto;
+        width: 900px;
+    }*/
+}
