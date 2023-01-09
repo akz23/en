@@ -1135,3 +1135,16 @@ button {
         width: 900px;
     }*/
 }
+.notmain {
+    max-width: 960px;
+    margin: 0 auto;
+    }
+.notmainbar {
+        background-color: #0d68b2;
+        height: 955px;
+        float: left;
+        max-width: 320px;
+        margin-right: 80px;
+        width: 320px;
+        position: fixed;
+    }
