@@ -401,7 +401,7 @@ button {
     width: 900px;
 }
 .footbl {
-    margin: 50px;
+    margin: 50px 30px;
     display: inline-block;
     vertical-align: top;
     max-width: 320px;
