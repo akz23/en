@@ -982,6 +982,7 @@ button {
     }
     .akzmaintxt {
         font-size: 1.6em;
+        margin-top: 90px;
     }
     .btnmain {
         display: block;
