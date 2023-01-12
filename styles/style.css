@@ -1177,4 +1177,11 @@ button {
     padding: 10px;
     font-size: 1.2em;
 }
+ 
+}
+
+
+.imgmob { 
+    text-align: center;
+    width: 100%;
 }
