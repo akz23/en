@@ -428,6 +428,9 @@ button {
 .footbl>p>a {
     color: #fff;
 }
+.footbl>h2>a {
+    color: #fff;
+}
 .txtunderline {
     text-decoration: underline;
 }
