@@ -1201,11 +1201,15 @@ button {
     max-width: 185px;
     width: 185px;
        }
-/* .notmain {
-    padding-left: 100px;
+/*.notmain {
+    padding-left: 115px;
 } */
 .upcontactsnotmain {
     padding: 50px 0px 20px 100px;
 }
-    
+@media screen and (min-width: 960px) and (max-width: 1365px) and (orientation: landscape) {
+    .notmain {
+    padding-left: 115px;
+} 
+    }
 }
