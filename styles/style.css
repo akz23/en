@@ -1181,11 +1181,12 @@ button {
  
 }
 
+/* 
 @media screen and (min-width: 960px) {
     .notmainbar {
     max-width: 200px;
-    width: 200px;
+    width: 200px; 
     position: relative;
    
-    }
+    }*/
 }
