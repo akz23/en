@@ -1189,4 +1189,15 @@ button {
     position: relative;
    
     }*/
+
+@media screen and (max-width: 1679px) {
+    .notmainbar {
+    max-width: 230px;
+    width: 230px;
+       }
+@media screen and (max-width: 1366px) {
+    .notmainbar {
+    max-width: 185px;
+    width: 185px;
+       }
 }
