@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>http://www.akz23.ru/en</loc><priority>1.00</priority></url>
+<url><loc>http://www.akz23.ru/en/</loc><priority>1.00</priority></url>
+<url><loc>http://www.akz23.ru/en/sarticles.html</loc><priority>1.00</priority></url>
+<url><loc>http://www.akz23.ru/en/inspectors_activities.html</loc><priority>1.00</priority></url>
+<url><loc>http://www.akz23.ru/en/corr_protect_equip.html</loc><priority>1.00</priority></url
+<url><loc>http://www.akz23.ru/en/problem_equip_cor.html</loc><priority>1.00</priority></url
+<url><loc>http://www.akz23.ru/en/cor_protect_tech_equip_benefit.html</loc><priority>1.00</priority></url
 </urlset>
