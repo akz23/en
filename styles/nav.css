@@ -139,14 +139,16 @@ html, body {
 .mobnav > a {
     color: #fff;
 }
-
+.mobnav > a {
+    color: #fff;
+}
 @media screen and (max-width: 1280px) {
     li > a {
     color: #fff;
        }
-  }
- 
-.menu>li>a {
-    color: #fff;
-}  
+  }  
 }
+
+.menu > li > a {
+    color: #fff;
+  } 
