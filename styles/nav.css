@@ -34,6 +34,7 @@ html, body {
   padding: 0;
 }
 
+
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
@@ -144,4 +145,8 @@ html, body {
     color: #fff;
        }
   }
+ 
+.menu>li>a {
+    color: #fff;
+}  
 }
