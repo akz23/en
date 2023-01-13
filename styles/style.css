@@ -1217,5 +1217,8 @@ button {
     .footerbc {
     padding-left: 190px;
 }
+    .footbl {
+    max-width: 240px;
+}
     }
 }
